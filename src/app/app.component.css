@@ -1,0 +1,19 @@
+
+.welcome-container {
+  text-align: center; 
+  padding: 20px; 
+}
+
+
+h1 {
+  font-size: 2.5em; 
+  margin-bottom: 10px; 
+}
+
+
+.tagline {
+  font-size: 1.2em; 
+  color: #555; 
+  margin-top: 0; 
+  margin-bottom: 20px; 
+}

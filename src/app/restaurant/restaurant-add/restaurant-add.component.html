@@ -1,0 +1,33 @@
+<div class="restaurant-add mat-elevation-z8">
+  <mat-card>
+    <mat-card-title>Add New Restaurant</mat-card-title>
+    <mat-card-content>
+      <form #form="ngForm" (ngSubmit)="addRestaurant()" novalidate>
+        <mat-form-field appearance="fill" class="full-width">
+          <mat-label>Name</mat-label>
+          <input matInput type="text" [(ngModel)]="restaurant.name" name="name" required>
+        </mat-form-field>
+
+        <mat-form-field appearance="fill" class="full-width">
+          <mat-label>Description</mat-label>
+          <textarea matInput [(ngModel)]="restaurant.description" name="description" required></textarea>
+        </mat-form-field>
+
+        <mat-form-field appearance="fill" class="full-width">
+          <mat-label>Location</mat-label>
+          <input matInput type="text" [(ngModel)]="restaurant.location" name="location" required>
+        </mat-form-field>
+
+        <mat-form-field appearance="fill" class="full-width">
+          <mat-label>Phone Number</mat-label>
+          <input matInput type="number" [(ngModel)]="restaurant.phoneNumber" name="phoneNumber" required>
+        </mat-form-field>
+
+        <div class="button-group">
+          <button mat-raised-button color="primary" type="submit"  [disabled]="!form.valid">Add Restaurant</button>
+          <button mat-raised-button color="warn" type="button" routerLink="/restaurants">Cancel</button>
+        </div>
+      </form>
+    </mat-card-content>
+  </mat-card>
+</div>
