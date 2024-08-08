@@ -1,0 +1,60 @@
+{
+  "restaurant-delivery": [
+    {
+      "id": "7319",
+      "name": "Spice Factory ",
+      "description": "The perfect place for amazing times and delectable dining!!!",
+      "location": "Wakad , Pune",
+      "phoneNumber": "7276394095"
+    },
+    {
+      "id": "f178",
+      "name": "B5 Rooftop Lounge",
+      "description": "A cozy bistro offering a mix of classic and contemporary dishes.",
+      "location": "Hinjewadi , Pune",
+      "phoneNumber": "9307158206"
+    },
+    {
+      "id": "3ca8",
+      "name": "Favela",
+      "description": "An upscale eatery known for its gourmet burgers and artisanal sides.",
+      "location": "Hinjewadi , Pune",
+      "phoneNumber": "7276394095"
+    },
+    {
+      "id": "d0d8",
+      "name": "Atmosphere",
+      "description": "A lively sports bar with comfort food favorites and multiple screens for game viewing.",
+      "location": "Viman Nagar , Pune",
+      "phoneNumber": "9307158206"
+    },
+    {
+      "id": "5823",
+      "name": "Kale Farm",
+      "description": "A charming farm-to-table restaurant with a focus on locally sourced ingredients.",
+      "location": "Baner , Pune",
+      "phoneNumber": "9307158206"
+    },
+    {
+      "id": "09de",
+      "name": "Masakha",
+      "description": "A seafood restaurant known for its fresh catches and waterfront views.",
+      "location": "Navle bridge , Pune",
+      "phoneNumber": "7276394095"
+    },
+    {
+      "id": "2f3c",
+      "name": "Swarna Pure Veg",
+      "description": "A vegetarian restaurant with a creative menu focused on plant-based ingredients.",
+      "location": "Warje , Pune",
+      "phoneNumber": "7276394095"
+    },
+    {
+      "id": "7368",
+      "name": "SP Biryani's",
+      "description": "Savor the rich flavors of authentic biryani made with traditional spices and ingredients.",
+      "location": "Tilak Road , Pune",
+      "phoneNumber": 7276394095
+    }
+  ]
+}
